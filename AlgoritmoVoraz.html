@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selección de Actividades</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        input {
+            padding: 8px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Programa de Selección de Actividades</h1>
+    <table id="tablaActividades">
+        <tr>
+            <th>Inicio</th>
+            <th>Fin</th>
+        </tr>
+    </table>
+    <button id="agregarFila">Agregar actividad</button>
+    <button id="seleccionarActividades">Seleccionar actividades</button>
+    <div class="result" id="resultado">
+        <h3>Actividades seleccionadas:</h3>
+        <p id="lista"></p>
+    </div>
+
+    <script src="prueba2.js"></script>
+</body>
+</html>
